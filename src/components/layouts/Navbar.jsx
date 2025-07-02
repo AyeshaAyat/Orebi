@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Image from "../Image";
-import Logo from "../../assets/Logo (1).PNG";
+import Logo from "../../assets/Logo (1).png";
 
 
 const Navbar = () => {
