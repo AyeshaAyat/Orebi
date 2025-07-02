@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@theme{
+    --color-MenutxtC:#767676;
+     --color-HoverC: #262626;
+     --color-MenuC:#F5F5F3;
+   
+}
