@@ -16,20 +16,20 @@ const Navbar = () => {
               <Image src={Logo} />
             </div>
             <div className="m-auto">
-              <ul className="flex gap-x-[20px] ">
-                <li className="text-sm hover:text-HoverC transition-2s    font-DM sans text-MenutxtC landing-auto">
+              <ul className="flex gap-x-[20px] cursor-pointer ">
+                <li className="text-[14px] hover:text-HoverC font-DM sans text-MenutxtC landing-auto">
                   Home
                 </li>
-                <li className="text-sm hover:text-HoverC transition-2s  font-DM sans text-MenutxtC landing-auto">
+                <li className="text-sm hover:text-HoverC  font-DM sans text-MenutxtC landing-auto">
                   Shop
                 </li>
-                <li className="text-sm hover:text-HoverC transition-2s  font-DM sans text-MenutxtC landing-auto">
+                <li className="text-sm hover:text-HoverC  font-DM sans text-MenutxtC landing-auto">
                   About
                 </li>
-                <li className="text-sm hover:text-HoverC transition-2s  font-DM sans text-MenutxtC landing-auto">
+                <li className="text-sm hover:text-HoverC  font-DM sans text-MenutxtC landing-auto">
                   Contact
                 </li>
-                <li className="text-sm hover:text-HoverC transition-2s  font-DM sans text-MenutxtC landing-auto">
+                <li className="text-sm hover:text-HoverC  font-DM sans text-MenutxtC landing-auto">
                   Journal
                 </li>
               </ul>
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="bg-MenuC py-5">
         <Container>
           <Flex className={`justify-between gap-x-30`}>
-            <div className=" flex">
+            <div className=" flex items-center gap-x-3">
               <>
                 <svg
                   width="19"
@@ -59,10 +59,10 @@ const Navbar = () => {
                   />
                 </svg>
                 <Heading 
-                text={"Shop by Category"} 
+                Text={"Shop by Category"} 
                 as={"h3"} 
-                className={"text-HoverC text-sm"}/>
-              </>
+                className={"text-HoverC text-sm text-nowrap"}/>
+                </>
             </div>
 
             <div className="relative">
