@@ -1,9 +1,14 @@
+import Image from '../Image'
 import RootLayout from '../layouts/RootLayout'
-
+import Banner from '../../assets/Group 10.png'
+import { Outlet } from 'react-router-dom'
 const Home = () => {
   return (
 <>
-<RootLayout/>
+<RootLayout/> 
+<Outlet>
+<Image src={Banner}/>
+</Outlet>
 
 </>
   )
