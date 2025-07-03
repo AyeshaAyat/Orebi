@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-MenuC py-[50px]">
       <Container>
-        <Flex className={`flex justify-between gap-x-8`}>
+        <Flex className={`flex justify-between`}>
           <div className='w-[10%]'>
             <Heading className="font-bold text-HoverC pb-[25px]" Text={"MENU"} as={"h2"} />
             <ul>
