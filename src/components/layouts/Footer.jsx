@@ -3,7 +3,7 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Heading from "../Heading";
 import Image from "../Image";
-import Logo from "../../assets/Logo (1).PNG"
+import Logo from "../../assets/Logo (1).png"
 const Footer = () => {
   return (
     <div className="bg-MenuC py-[50px]">
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </Flex>
         <div className="">
-          
+
         </div>
       </Container>
     </div>
